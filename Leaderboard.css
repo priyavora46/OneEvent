@@ -1,0 +1,51 @@
+
+/* Custom styles for Leaderboard page */
+.container {
+    background-color: #f4f6f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    color: #1a73e8;
+    font-weight: bold;
+  }
+  
+  .table {
+    font-size: 1.2rem;
+  }
+  
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  th {
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+  }
+  
+  td {
+    padding: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  
+    .table {
+      font-size: 1rem;
+    }
+  }
